@@ -1,0 +1,106 @@
+
+
+.auth-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dfe3e8;
+  box-shadow: 0 1px 3px rgba(23, 24, 24, 0.12);
+  padding: 24px 28px 28px;
+}
+
+.auth-title {
+  margin: 0 0 4px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #202223;
+  text-align: center;
+}
+
+.auth-subtitle {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #6d7175;
+  text-align: center;
+}
+
+.auth-card form {
+  margin-top: 4px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 9px 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #c4cdd5;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.auth-card input:focus {
+  border-color: #5c6ac4;
+  box-shadow: 0 0 0 1px rgba(92, 106, 196, 0.4);
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #008060; /* Shopify green */
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.auth-card button:hover {
+  background: #006e52;
+}
+
+.auth-footer {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #6d7175;
+  text-align: center;
+}
+
+.auth-footer a {
+  color: #006fbb;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.error-msg {
+  color: #b42318;
+  background: #fdecea;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.success-msg {
+  color: #0f7b3a;
+  background: #e7f5ee;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
